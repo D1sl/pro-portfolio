@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pro-portfolio/static/css/main.978196ff.css",
+    "main.js": "/pro-portfolio/static/js/main.7a1db68a.js",
+    "static/js/787.62629cc7.chunk.js": "/pro-portfolio/static/js/787.62629cc7.chunk.js",
+    "static/media/tenantively-screenshot.png": "/pro-portfolio/static/media/tenantively-screenshot.1bac5cd98f388b6ac5ca.png",
+    "static/media/hero-background.jpg": "/pro-portfolio/static/media/hero-background.f645241745cb8bed1f2a.jpg",
+    "static/media/protoweb.jpg": "/pro-portfolio/static/media/protoweb.8af46fe1fe38aae9120b.jpg",
+    "static/media/sourscreens-screenshot.png": "/pro-portfolio/static/media/sourscreens-screenshot.8cb74b6d6f5fad985632.png",
+    "static/media/cheapsleep.jpg": "/pro-portfolio/static/media/cheapsleep.b4f7c73b047f2808ee48.jpg",
+    "static/media/hiledesign.jpg": "/pro-portfolio/static/media/hiledesign.f1b4450c5e199d0839f9.jpg",
+    "static/media/profilepic.jpeg": "/pro-portfolio/static/media/profilepic.dea27ac2c9b43749d951.jpeg",
+    "static/media/molini-logo.png": "/pro-portfolio/static/media/molini-logo.1c5b6dcbec66b613ec24.png",
+    "index.html": "/pro-portfolio/index.html",
+    "main.978196ff.css.map": "/pro-portfolio/static/css/main.978196ff.css.map",
+    "main.7a1db68a.js.map": "/pro-portfolio/static/js/main.7a1db68a.js.map",
+    "787.62629cc7.chunk.js.map": "/pro-portfolio/static/js/787.62629cc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.978196ff.css",
+    "static/js/main.7a1db68a.js"
+  ]
+}
