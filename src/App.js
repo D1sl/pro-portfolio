@@ -1,16 +1,18 @@
-import React from 'react'
-import Nav from './components/Navigation'
-import About from './components/About';
-import Footer from './components/Footer';
+import { useState } from "react";
+import Header from './components/Header'
+import Content from './components/Content'
 import './assets/css/styles.css'
 
 function App() {
+  const [currentPage, setCurrentPage ] = useState("About Me");
+
   return (
-    <div>
-      <Nav></Nav>
-      <About></About>
-      <Footer></Footer>
-    </div>
+    <>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <main>
+        <Content currentPage={currentPage} />
+      </main>
+    </>
   );
 }
 
