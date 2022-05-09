@@ -88,13 +88,16 @@ header ul {
     
 }
 
-header ul li {
-    margin-left: 15px;
+li.current {
+    border-bottom: white 1px solid;
 }
 
-header ul li a {
+header ul li {
     color: var(--primary-white);
     text-transform: uppercase;
+    margin-left: 15px;
+    cursor: pointer;
+    border-bottom: black 1px solid;
 }
 
 header ul li a:hover {

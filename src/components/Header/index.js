@@ -1,25 +1,25 @@
 function Header(props) {
-    const { setCurrentPage } = props;
+    const { currentPage, setCurrentPage } = props;
 
     return (
         <header>
             <div className="container">
                 <div className="branding">
-                    <h1>Molini</h1>
+                    <img src={require(`../../assets/images/molini-logo.png`)} alt="Website logo" />
                 </div>
                 <nav>
                     <ul>
-                        <li>
+                        <li className={`${currentPage === "About Me" && "current"}`}>
                             <span onClick={() => setCurrentPage("About Me")}>
                                 About Me
                             </span>
                         </li>
-                        <li>
+                        <li className={`${currentPage === "MyWork" && "current"}`}>
                             <span onClick={() => setCurrentPage("MyWork")}>
                                 Work
                             </span>
                         </li>
-                        <li>
+                        <li className={`${currentPage === "Contact" && "current"}`}>
                             <span onClick={() => setCurrentPage("Contact")}>
                                 Contact
                             </span>

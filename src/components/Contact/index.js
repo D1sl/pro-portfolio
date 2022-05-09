@@ -1,12 +1,12 @@
 function Contact() {
     return (
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="section-title">
+        <section className="contact" id="contact">
+            <div className="container">
+                <div className="section-title">
                     <h3>Contact me</h3>
                 </div>
-                <div class="section-content">
-                    <ul class="contact-details">
+                <div className="section-content">
+                    <ul className="contact-details">
                         <li><a href="mailto:benjamin@molini.fi">benjamin@molini.fi</a></li>
                         <li><a href="https://github.com/D1sl/">GitHub</a></li>
                         <li><a href="https://www.linkedin.com/in/benjaminmolini/">LinkedIn</a></li>
