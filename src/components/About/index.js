@@ -28,7 +28,7 @@ function About() {
                     </div>
                     <div className="main-box">
                         <h3>02 <strong>Develop</strong></h3>
-                        <p>Recent graduate of <strong>Vanderbilt</strong>'s Coding Boot Camp, I posess comprehensive knowledge of both back- and front end technologies like JavaScript, MERN, SQL and more.
+                        <p>Recent graduate of <strong>Vanderbilt</strong>'s Coding Boot Camp, I have comprehensive knowledge of both back- and front end technologies like JavaScript, MERN, SQL and more.
                         </p>
                     </div>
                 </div>
