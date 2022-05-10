@@ -33,7 +33,7 @@ button:hover {
 
 .wrapper2 {
     background-image: url('/src/assets/image/backdrop-blur.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
@@ -291,6 +291,10 @@ main {
 
 a.projectbutton {
     margin-top: auto;
+}
+
+.resume-highlights {
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
