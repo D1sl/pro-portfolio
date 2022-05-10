@@ -9,11 +9,11 @@ function About() {
                     <p><strong>Full-Stack Web Developer</strong> based in Nashville, Tennessee</p>
                     <div className="icons">
                         <ul>
-                            <a href="https://github.com/d1sl" target="_blank">
-                                <li><img src={require(`../../assets/image/github-light.png`)} /> Github</li>
+                            <a href="https://github.com/d1sl" target="_blank" rel="noreferrer">
+                                <li><img src={require(`../../assets/image/github-light.png`)} alt="Github Logo" /> Github</li>
                             </a>
-                            <a href="https://www.linkedin.com/in/benjaminmolini/" target="_blank">
-                                <li><img src={require(`../../assets/image/libug.png`)} /> LinkedIn</li>
+                            <a href="https://www.linkedin.com/in/benjaminmolini/" target="_blank" rel="noreferrer">
+                                <li><img src={require(`../../assets/image/libug.png`)} alt="LinkedIn logo" /> LinkedIn</li>
                             </a>
                         </ul>
                     </div>
