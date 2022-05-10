@@ -1,19 +1,25 @@
+import { useState } from "react";
+
 function Contact() {
+    const [contactFormState, setContactFormState] = useState({
+        subject: "",
+        name: "",
+        message: ""
+    });
+    const [errorMessage, setErrorMessage] = useState("");
+
     return (
-        <section className="contact" id="contact">
-            <div className="container">
-                <div className="section-title">
-                    <h3>Contact me</h3>
-                </div>
-                <div className="section-content">
-                    <ul className="contact-details">
-                        <li><a href="mailto:benjamin@molini.fi">benjamin@molini.fi</a></li>
-                        <li><a href="https://github.com/D1sl/">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/benjaminmolini/">LinkedIn</a></li>
-                    </ul>
-                </div>
+        <div className="container">
+        <div className="row">
+            <h2>contact<br /><span>me</span></h2>
+            <p className="desc">To get into contact with me, fill out the form below!</p>
+        </div>
+        <a className='downloadbutton' href='../../assets/downloads/resume.pdf' download>
+            <div>
+                hello
             </div>
-        </section>
+        </a>
+    </div>        
     )
 }
 

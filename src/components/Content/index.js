@@ -1,6 +1,7 @@
 import About from '../About'
 import MyWork from '../MyWork'
 import Resume from '../Resume'
+import Contact from '../Contact'
 
 function Content(props) {
     const { currentPage } = props;
@@ -10,6 +11,7 @@ function Content(props) {
             {currentPage === "About Me" && <About />}
             {currentPage === "MyWork" && <MyWork />}
             {currentPage === "Resume" && <Resume />}
+            {currentPage === "Contact" && <Contact />}
         </>
     )
 }
