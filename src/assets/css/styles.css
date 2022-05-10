@@ -6,8 +6,7 @@ body {
     background-color: #2f254b;
 }
 
-a,
-button {
+a, button {
     color: white;
     text-decoration: none;
     background: none;
@@ -304,7 +303,7 @@ a.projectbutton {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .main-left h2 {
         font-size: 70px;
         line-height: 70px;
@@ -332,9 +331,16 @@ a.projectbutton {
 
     .menu ul {
         display: flex;
+        justify-content: space-around;
         list-style: none;
         margin: 0;
         padding: 0;
+    }
+
+    .menu ul li {
+        width: auto;
+        padding: 0;
+        margin: 0;
     }
 
     nav {
@@ -366,5 +372,13 @@ a.projectbutton {
         width: 20px;
         height: 20px;
         background-color: #CC326A;
+    }
+
+    .icons ul {
+        display: block;
+    }
+
+    .icons a li {
+        margin: 0 0 20px 0;
     }
 }
