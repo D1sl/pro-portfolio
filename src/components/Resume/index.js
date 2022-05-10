@@ -3,13 +3,9 @@ import React from 'react'
 function Resume() {
     return (
         <div className="container">
-            <h1>Summary</h1>
-            <p>Creative individual with a strong, demonstrated history of over 10 years in graphic design as well as diverse experience in team leading and project management.</p>
-            <p>What motivates me the most is being able to see the concrete impacts of my work while doing something I am passionate about and creating something that aligns with my clients goals and expectations to make a positive impact and successfully drive their business forward.</p>
-            <p>Through extensive experience in various customer-oriented positions, I have accumulated valuable knowledge that can be seen in the results of projects I’ve worked on. I have great instincts, but being an analytical person, I always seek data for my decisions. Paying a lot of attention in research, I am good at executing even big ideas within given constraints.</p>
-            <h1>Highlights</h1>
             <div className="resume-highlights">
                 <div>
+                    <h2>Front-End Skills</h2>
                     <ul>
                         <li>Strategic Planning Experience</li>
                         <li>Project Management</li>
@@ -19,6 +15,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div>
+                <h2>Back-End Skills</h2>
                     <ul>
                         <li>Technologically Savvy</li>
                         <li>Comprehensive Organization Skills</li>
@@ -29,7 +26,7 @@ function Resume() {
                     </ul>
                 </div>
             </div>
-            <h1>Work Experience</h1>
+            <a href='https://www.benmolini.com/resume'>Full resume →</a>
         </div>
     )
 }
