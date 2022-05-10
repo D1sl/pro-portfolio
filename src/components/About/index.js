@@ -7,12 +7,6 @@ function About() {
                 <div className="main-left">
                     <h2>ben<br /><span className="highlight">molini</span></h2>
                     <p><strong>Full-Stack Web Developer</strong> based in Nashville, Tennessee</p>
-                    <a href="#">
-                        <div className="link">
-                            <p>know more</p>
-                            <img src={require(`../../assets/image/main-arrow.png`)} alt="arrow pointing right" />
-                        </div>
-                    </a>
                     <div className="icons">
                         <ul>
                             <a href="https://github.com/d1sl" target="_blank">
@@ -34,9 +28,7 @@ function About() {
                     </div>
                     <div className="main-box">
                         <h3>02 <strong>Develop</strong></h3>
-                        <p>Recently graduated from <strong>Vanderbilt Boot Camps</strong>, I am a skilled
-                            <strong>Full-Stack Web Developer</strong> with skills to work with JavaScript, MERN, SQL
-                            and more.
+                        <p>Recent graduate of <strong>Vanderbilt</strong>'s Coding Boot Camp, I posess comprehensive knowledge of both back- and front end technologies like JavaScript, MERN, SQL and more.
                         </p>
                     </div>
                 </div>

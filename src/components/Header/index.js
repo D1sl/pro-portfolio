@@ -16,7 +16,7 @@ function Header(props) {
                     <li><button onClick={() => setCurrentPage("MyWork")}>my work</button>
                         <div className={`${currentPage === "MyWork" && "menu-selected-visible"}`}></div>
                     </li>
-                    <li><button onClick={() => setCurrentPage("Resume")}>resume</button>
+                    <li><button onClick={() => setCurrentPage("Resume")}>my resume</button>
                         <div className={`${currentPage === "Resume" && "menu-selected-visible"}`}></div>
                     </li>
                     <li><button href="#contact">contact</button>

@@ -296,6 +296,48 @@ a.projectbutton {
     display: flex;
 }
 
+.downloadbutton {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: rgba(255, 255, 255, 0.3) solid 1px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.downloadbutton div {
+    margin: 10px
+}
+
+.downloadbutton h2 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.downloadbutton p {
+    margin: 0;
+}
+
+.downloadbutton:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+p.resdesc {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+
+p.resdesc strong {
+    color: #CC326A;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+
 @media screen and (max-width: 768px) {
     .work-item {
         display: block;
