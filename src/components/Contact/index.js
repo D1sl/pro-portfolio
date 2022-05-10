@@ -34,13 +34,19 @@ function Contact() {
                             <input type="text" name="name" defaultValue={name} onBlur={handleChage} />
                         </div>
                         <div>
-                            <label htmlFor="subject">subject</label>
+                            <label htmlFor="subject">Subject</label>
                             <input type="subject" name="subject" defaultValue={subject} onBlur={handleChage} />
                         </div>
                         <div>
                             <label htmlFor="message">Message</label>
                             <textarea name="message" rows="7" defaultValue={message} onBlur={handleChage} />
                         </div>
+                        { errorMessage && (
+                            <div>
+                                <p className="error">{errorMessage}</p>
+                            </div>
+                        )}
+                        <a className="button" href={`mailto:benjaminmolini@gmail.com?subject=${name} - ${subject}&body=${message}`}>Send</a>
                     </div>
                 </form>
             </div>
