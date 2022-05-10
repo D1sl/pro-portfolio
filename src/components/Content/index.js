@@ -1,6 +1,6 @@
 import About from '../About'
 import MyWork from '../MyWork'
-import Contact from '../Contact'
+import Resume from '../Resume'
 
 function Content(props) {
     const { currentPage } = props;
@@ -9,7 +9,7 @@ function Content(props) {
         <>
             {currentPage === "About Me" && <About />}
             {currentPage === "MyWork" && <MyWork />}
-            {currentPage === "Contact" && <Contact />}
+            {currentPage === "Resume" && <Resume />}
         </>
     )
 }
