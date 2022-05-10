@@ -277,6 +277,10 @@ a.projectbutton {
     margin-top: auto;
 }
 
+.resume-highlights {
+    display: flex;
+}
+
 @media screen and (max-width: 768px) {
     .work-item {
         display: block;
