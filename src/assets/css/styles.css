@@ -32,8 +32,8 @@ button:hover {
 
 .wrapper2 {
     background-image: url('/src/assets/image/backdrop-blur.jpg');
-    background-size: contain;
-    background-position: center;
+    background-size: 100;
+    background-position: top;
     background-repeat: no-repeat;
     height: auto;
     min-height: 100vh;
