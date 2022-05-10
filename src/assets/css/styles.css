@@ -6,10 +6,11 @@ body {
     background-color: #2f254b;
 }
 
-a, button {
+a,
+button {
     color: white;
     text-decoration: none;
-    background:none;
+    background: none;
     border: 0;
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
@@ -113,7 +114,7 @@ nav h1 {
     color: white;
 }
 
-.menu ul li button:hover + .menu-selected {
+.menu ul li button:hover+.menu-selected {
     display: block;
 }
 
@@ -231,9 +232,23 @@ main {
 }
 
 .row h2 {
-    font-size: 80px;
+    font-size: 180px;
     color: white;
-    font-weight: 300;
+    font-weight: 800;
+    text-align: center;
+    line-height: 150px;
+    margin: 120px 0 40px 0;
+}
+
+.row p.desc {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.row span {
+    color: #CC326A;
+    text-shadow: rgba(204, 50, 106, 0.5) 0px 0px 32px;
 }
 
 .work-item {
@@ -241,7 +256,7 @@ main {
     width: 100%;
     height: 350px;
     margin-bottom: 30px;
-    background-color:  rgba(0, 0, 0, 0.29);
+    background-color: rgba(0, 0, 0, 0.29);
     overflow: hidden;
 }
 
@@ -267,6 +282,7 @@ main {
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
+
 .work-item-details h3 {
     margin: 0;
     font-weight: 300;
@@ -293,5 +309,58 @@ a.projectbutton {
     .main-left a .link {
         font-size: 20px;
         letter-spacing: 3px;
+    }
+
+    .row h2 {
+        font-size: 100px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+        line-height: 85px;
+        margin: 50px 0 40px 0;
+    }
+
+    nav .container {
+        display: block;
+        height: 100px;
+        margin: 0;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .brand h1 {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-selected {
+        display: none;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+        width: 55px;
+        height: 40px;
+        background-color: #CC326A;
+    }
+    
+    .menu-selected-visible {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        width: 20px;
+        height: 20px;
+        background-color: #CC326A;
     }
 }

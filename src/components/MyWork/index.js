@@ -2,7 +2,8 @@ function MyWork() {
     return (
         <div className="container">
                 <div className="row">
-                    <h2>work</h2>
+                    <h2>my<br /><span>work</span></h2>
+                    <p className="desc">From Graphic Design and Branding to Web Development, this is a collection of my projects.</p> 
                 </div>
                 <div className="row items">
                     <div className="work-item">
