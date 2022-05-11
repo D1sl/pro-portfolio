@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../../assets/downloads/resume.pdf'
 
 function Resume() {
     return (
@@ -9,7 +10,7 @@ function Resume() {
                 <p className='resdesc'><strong>Back-End</strong> | Node.js, Express.js, REST, SQL, MongoDB</p>
             </div>
             <a className='downloadbutton' href='../../assets/downloads/resume.pdf' download={"resume.pdf"}>
-                <div><img src={require(`../../assets/image/dl.png`)} alt='' /></div>
+                <div><img src={resume} alt='' /></div>
                 <div>
                 <h2>Download full resume</h2>
                 <p>PDF | 511 kb</p>
