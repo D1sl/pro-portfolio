@@ -17,7 +17,7 @@ function MyWork() {
                                 create new properties, manage them with full CRUD, and enjoy a fully responsive
                                 mobile-first
                                 design that demonstrates a perfect balance of visual appeal and functionality.</p>
-                            <a href="#" className="projectbutton">View Project →</a>
+                            <a href="https://github.com/SpencerHulse/tenantively-maybe-probably" className="projectbutton">View Project →</a>
                         </div>
                     </div>
                     <div className="work-item">
@@ -36,7 +36,7 @@ function MyWork() {
                                 we needed on that actor and display it in another page. This information includes their
                                 profile picture, a small biography, and a list of movies that starts with those that are
                                 rated worst to best.</p>
-                            <a href="#" className="projectbutton">View Project →</a>
+                            <a href="https://github.com/D1sl/symmetrical-robot" className="projectbutton">View Project →</a>
                         </div>
                     </div>
                     <div className="work-item">
@@ -47,7 +47,7 @@ function MyWork() {
                             <p className="label">Website Design</p>
                             <h3>Hile Design</h3>
                             <p>Complete web design project to showcase designer coffee products.</p>
-                            <a href="#" className="projectbutton">View Project →</a>
+                            <a href="https://hiledesign.fi/" className="projectbutton">View Project →</a>
                         </div>
                     </div>
                     <div className="work-item">
@@ -60,7 +60,7 @@ function MyWork() {
                             <p>I was the Marketing Specialist for CheapSleep between 2016 and 2018, and my design
                                 language
                                 can still be observed at CheapSleep.</p>
-                            <a href="#" className="projectbutton">View Project →</a>
+                            <a href="https://www.cheapsleep.fi/" className="projectbutton">View Project →</a>
                         </div>
                     </div>
                 </div>
