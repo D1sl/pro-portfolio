@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Header from './components/Header'
-import Content from './components/Content'
-import './assets/css/styles.css'
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import './assets/css/styles.css';
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <main>
           <Content currentPage={currentPage} />
         </main>
+        <Footer></Footer>
     </div>
   );
 }
