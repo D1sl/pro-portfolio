@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/pro-portfolio/static/css/main.bbf90c8e.css",
-    "main.js": "/pro-portfolio/static/js/main.d92e2abc.js",
+    "main.js": "/pro-portfolio/static/js/main.4daf4e2d.js",
     "static/js/787.62629cc7.chunk.js": "/pro-portfolio/static/js/787.62629cc7.chunk.js",
     "static/media/tenantively-screenshot.png": "/pro-portfolio/static/media/tenantively-screenshot.1bac5cd98f388b6ac5ca.png",
+    "static/media/resume.pdf": "/pro-portfolio/static/media/resume.c96287c6cc53a131dd81.pdf",
     "static/media/sourscreens-screenshot.png": "/pro-portfolio/static/media/sourscreens-screenshot.8cb74b6d6f5fad985632.png",
     "static/media/backdrop.jpg": "/pro-portfolio/static/media/backdrop.6bb30646d7db76cdf2d7.jpg",
     "static/media/backdrop-blur.jpg": "/pro-portfolio/static/media/backdrop-blur.596ab1b7a40744159882.jpg",
@@ -11,11 +12,11 @@
     "static/media/hiledesign.jpg": "/pro-portfolio/static/media/hiledesign.f1b4450c5e199d0839f9.jpg",
     "index.html": "/pro-portfolio/index.html",
     "main.bbf90c8e.css.map": "/pro-portfolio/static/css/main.bbf90c8e.css.map",
-    "main.d92e2abc.js.map": "/pro-portfolio/static/js/main.d92e2abc.js.map",
+    "main.4daf4e2d.js.map": "/pro-portfolio/static/js/main.4daf4e2d.js.map",
     "787.62629cc7.chunk.js.map": "/pro-portfolio/static/js/787.62629cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbf90c8e.css",
-    "static/js/main.d92e2abc.js"
+    "static/js/main.4daf4e2d.js"
   ]
 }
