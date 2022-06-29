@@ -8,6 +8,17 @@ function MyWork() {
             <div className="row items">
                 <div className="work-item">
                     <div className="work-image">
+                        <img src={require(`../../assets/image/sellouts.png`)} alt="sellouts project" />
+                    </div>
+                    <div className="work-item-details">
+                        <p className="label">Collaborative project</p>
+                        <h3>Sellouts</h3>
+                        <p>Sellouts is a more advanced version of N-Sense.</p>
+                        <a href="https://github.com/SpencerHulse/sellouts" className="projectbutton">View Project →</a>
+                    </div>
+                </div>
+                <div className="work-item">
+                    <div className="work-image">
                         <img src={require(`../../assets/image/nsense-screenshot.png`)} alt="nsense project" />
                     </div>
                     <div className="work-item-details">
@@ -19,7 +30,7 @@ function MyWork() {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/tenantively-screenshot.png`)} alt="tenantively project"/>
+                        <img src={require(`../../assets/image/tenantively-screenshot.png`)} alt="tenantively project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Bootcamp Week 14 Challenge</p>
