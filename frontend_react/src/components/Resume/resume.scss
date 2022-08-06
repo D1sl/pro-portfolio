@@ -1,0 +1,22 @@
+.app__experiences {
+    width: 800px;
+    margin: auto auto;
+
+    h2 {
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    span {
+        font-weight: 700;
+        margin-right: 15px;
+    }
+}
+
+.app__experience-item {
+    margin: 0 0 20px 0;
+}
