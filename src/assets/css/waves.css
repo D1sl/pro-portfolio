@@ -1,0 +1,145 @@
+.wave-container {
+    position: absolute;
+    overflow-x: hidden;
+    top: 0;
+    right: -20%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.waves {
+    position: relative;
+    transform: rotate(-90deg);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+
+}
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 20s cubic-bezier(0.3, 0, 0.8, 1) infinite;
+    animation-direction: alternate;
+    transform: scaleY(0.5);
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -1.6s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -2s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -2.4s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -2.8s;
+}
+
+.parallax>use:nth-child(5) {
+    animation-delay: -3.2s;
+}
+
+.parallax>use:nth-child(6) {
+    animation-delay: -3.6s;
+}
+
+.parallax>use:nth-child(7) {
+    animation-delay: -4s;
+}
+
+.parallax>use:nth-child(8) {
+    animation-delay: -4.4s;
+}
+
+.parallax>use:nth-child(9) {
+    animation-delay: -4.8s;
+}
+
+.parallax>use:nth-child(10) {
+    animation-delay: -5.2s;
+}
+
+.parallax>use:nth-child(11) {
+    animation-delay: -5.6s;
+}
+
+.parallax>use:nth-child(12) {
+    animation-delay: -6s;
+}
+
+.parallax>use:nth-child(13) {
+    animation-delay: -6.4s;
+}
+
+.parallax>use:nth-child(14) {
+    animation-delay: -6.8s;
+}
+
+.parallax>use:nth-child(15) {
+    animation-delay: -7.2s;
+}
+
+.parallax>use:nth-child(16) {
+    animation-delay: -7.6s;
+}
+
+.parallax>use:nth-child(17) {
+    animation-delay: -8s;
+}
+
+.parallax>use:nth-child(18) {
+    animation-delay: -8.4s;
+}
+
+.parallax>use:nth-child(19) {
+    animation-delay: -8.8s;
+}
+
+.parallax>use:nth-child(20) {
+    animation-delay: -9.2s;
+}
+
+.parallax>use:nth-child(21) {
+    animation-delay: -9.6s;
+}
+
+@keyframes move-forever {
+    0% {
+        /* transform: translate3d(60px, -20px,0); */
+
+        transform: translate3d(-0px, -10px, 0);
+    }
+
+    100% {
+        /* transform: translate3d(60px, -20px, 0); */
+        transform: translate3d(100px, -25px, 0);
+
+    }
+}
+
+/*Shrinking for mobile*/
+@media screen and (max-width: 720px) {
+    .wave-container {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform: none;
+    }
+    .waves {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transform: none;
+        transform: scaleY(0.6)
+    }
+}

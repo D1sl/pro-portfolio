@@ -1,12 +1,27 @@
-body, input {
+body,
+input {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     color: white;
+}
+
+#root {
+    min-height: 100vh;
+    overflow: scroll;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(-127deg, rgba(2, 0, 36, 1) 0%, rgba(47, 37, 75, 1) 35%, rgba(70, 29, 83, 1) 100%);
+}
+
+input {
     background-color: #2f254b;
 }
 
-a, button {
+a,
+button {
     color: white;
     text-decoration: none;
     background: none;
@@ -21,13 +36,8 @@ button:hover {
 }
 
 .wrapper {
-    background-image: url('/src/assets/image/backdrop.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: auto;
-    min-height: 100vh;
     padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .wrapper2 {
@@ -35,8 +45,6 @@ button:hover {
     background-size: 100;
     background-position: top;
     background-repeat: no-repeat;
-    height: auto;
-    min-height: 100vh;
     padding-bottom: 50px;
 }
 
@@ -44,7 +52,8 @@ button:hover {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px 0 20px
+    padding: 0 20px 0 20px;
+    z-index: 10;
 }
 
 nav .container {
@@ -210,7 +219,7 @@ main {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-    height: 70vh;
+    /* height: 70vh; */
 }
 
 .main-box {
@@ -357,7 +366,8 @@ label {
     clear: both;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.5);
@@ -382,6 +392,17 @@ input, textarea {
 .button:hover {
     background-color: rgba(245, 40, 145, 0.8);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     .row h2 {
@@ -457,7 +478,7 @@ input, textarea {
         height: 40px;
         background-color: #CC326A;
     }
-    
+
     .menu-selected-visible {
         display: block;
         position: absolute;
