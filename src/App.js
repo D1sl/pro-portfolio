@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -18,17 +18,17 @@ import './assets/css/waves.css';
 function App() {
 
   return (
-    <Router basemname={`/${process.env.PUBLIC_URL}`}>
+    <Router>
       <div className="wrapper">
         <Header />
         <main>
           <Waves />
-          <Routes>
+          <HashRouter>
             <Route path="" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/work" element={<MyWork />} />
-          </Routes>
+          </HashRouter>
         </main>
         <Footer />
       </div>
