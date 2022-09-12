@@ -17,6 +17,14 @@ import './assets/css/waves.css';
 
 function App() {
 
+  let address = window.location.href;
+
+  console.log(address)
+
+  if (address === "https://d1sl.github.io/pro-portfolio/") {
+    window.location.replace("http://benmolini-portfolio.herokuapp.com/");
+  }
+
   return (
     <HashRouter basemname={`/${process.env.PUBLIC_URL}`}>
       <div className="wrapper">
