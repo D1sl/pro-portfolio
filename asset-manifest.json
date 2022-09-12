@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pro-portfolio/static/css/main.af9ba658.css",
-    "main.js": "/pro-portfolio/static/js/main.a190733b.js",
+    "main.js": "/pro-portfolio/static/js/main.13d79ed2.js",
     "static/media/tenantively-screenshot.png": "/pro-portfolio/static/media/tenantively-screenshot.1bac5cd98f388b6ac5ca.png",
     "static/media/nsense-screenshot.png": "/pro-portfolio/static/media/nsense-screenshot.f204cef6152acb7c130a.png",
     "static/media/sellouts.png": "/pro-portfolio/static/media/sellouts.dfa24ceb50cb314e7ab9.png",
@@ -11,10 +11,10 @@
     "static/media/hiledesign.jpg": "/pro-portfolio/static/media/hiledesign.f1b4450c5e199d0839f9.jpg",
     "index.html": "/pro-portfolio/index.html",
     "main.af9ba658.css.map": "/pro-portfolio/static/css/main.af9ba658.css.map",
-    "main.a190733b.js.map": "/pro-portfolio/static/js/main.a190733b.js.map"
+    "main.13d79ed2.js.map": "/pro-portfolio/static/js/main.13d79ed2.js.map"
   },
   "entrypoints": [
     "static/css/main.af9ba658.css",
-    "static/js/main.a190733b.js"
+    "static/js/main.13d79ed2.js"
   ]
 }
