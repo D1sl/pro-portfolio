@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -18,7 +18,7 @@ import './assets/css/waves.css';
 function App() {
 
   return (
-    <Router>
+    <HashRouter>
       <div className="wrapper">
         <Header />
         <main>
@@ -33,7 +33,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
