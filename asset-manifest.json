@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pro-portfolio/static/css/main.46949161.css",
+    "main.css": "/pro-portfolio/static/css/main.db98f14c.css",
     "main.js": "/pro-portfolio/static/js/main.4e55eda2.js",
     "static/js/787.62629cc7.chunk.js": "/pro-portfolio/static/js/787.62629cc7.chunk.js",
     "static/media/tenantively-screenshot.png": "/pro-portfolio/static/media/tenantively-screenshot.1bac5cd98f388b6ac5ca.png",
@@ -11,12 +11,12 @@
     "static/media/cheapsleep.jpg": "/pro-portfolio/static/media/cheapsleep.b4f7c73b047f2808ee48.jpg",
     "static/media/hiledesign.jpg": "/pro-portfolio/static/media/hiledesign.f1b4450c5e199d0839f9.jpg",
     "index.html": "/pro-portfolio/index.html",
-    "main.46949161.css.map": "/pro-portfolio/static/css/main.46949161.css.map",
+    "main.db98f14c.css.map": "/pro-portfolio/static/css/main.db98f14c.css.map",
     "main.4e55eda2.js.map": "/pro-portfolio/static/js/main.4e55eda2.js.map",
     "787.62629cc7.chunk.js.map": "/pro-portfolio/static/js/787.62629cc7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46949161.css",
+    "static/css/main.db98f14c.css",
     "static/js/main.4e55eda2.js"
   ]
 }
