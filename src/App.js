@@ -24,10 +24,10 @@ function App() {
         <main>
           <Waves />
           <Routes>
-            <Route path="/pro-portfolio" element={<About />} />
-            <Route path="/pro-portfolio/contact" element={<Contact />} />
-            <Route path="/pro-portfolio/resume" element={<Resume />} />
-            <Route path="/pro-portfolio/work" element={<MyWork />} />
+            <Route path="/" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/work" element={<MyWork />} />
             <Route path="*" element={<About />} />
           </Routes>
         </main>
