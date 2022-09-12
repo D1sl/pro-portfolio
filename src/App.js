@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <HashRouter basemname={`/${process.env.PUBLIC_URL}`}>
+    <Router>
       <div className="wrapper">
         <Header />
         <main>
@@ -40,7 +40,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
