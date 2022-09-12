@@ -28,6 +28,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/work" element={<MyWork />} />
+            <Route path="*" element={<About />} />
           </Routes>
         </main>
         <Footer />
