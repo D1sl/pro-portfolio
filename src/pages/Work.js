@@ -8,7 +8,7 @@ const MyWork = () => {
             <div className="row items">
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/sellouts.png`)} alt="sellouts project" />
+                        <img src={require(`../assets/image/sellouts.png`)} alt="sellouts project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Collaborative project</p>
@@ -19,7 +19,7 @@ const MyWork = () => {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/nsense-screenshot.png`)} alt="nsense project" />
+                        <img src={require(`../assets/image/nsense-screenshot.png`)} alt="nsense project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Vanderbilt Bootcamps Final Challenge</p>
@@ -30,7 +30,7 @@ const MyWork = () => {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/tenantively-screenshot.png`)} alt="tenantively project" />
+                        <img src={require(`../assets/image/tenantively-screenshot.png`)} alt="tenantively project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Bootcamp Week 14 Challenge</p>
@@ -44,7 +44,7 @@ const MyWork = () => {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/sourscreens-screenshot.png`)} alt="sourscreens project" />
+                        <img src={require(`../assets/image/sourscreens-screenshot.png`)} alt="sourscreens project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Bootcamp Week 9 Challenge</p>
@@ -63,7 +63,7 @@ const MyWork = () => {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/hiledesign.jpg`)} alt="hiledesign project" />
+                        <img src={require(`../assets/image/hiledesign.jpg`)} alt="hiledesign project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Website Design</p>
@@ -74,7 +74,7 @@ const MyWork = () => {
                 </div>
                 <div className="work-item">
                     <div className="work-image">
-                        <img src={require(`../../assets/image/cheapsleep.jpg`)} alt="cheapsleep project" />
+                        <img src={require(`../assets/image/cheapsleep.jpg`)} alt="cheapsleep project" />
                     </div>
                     <div className="work-item-details">
                         <p className="label">Graphic Illustrations</p>

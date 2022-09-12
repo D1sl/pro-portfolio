@@ -393,16 +393,18 @@ textarea {
     background-color: rgba(245, 40, 145, 0.8);
 }
 
+.menu-item {
+    background-color: none;
+    transition: all 1s ease-in-out;
+}
 
-
-
-
-
-
-
-
-
-
+li .active {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #CC326A;
+    transition: all 1s ease-in-out;
+}
 
 @media screen and (max-width: 1000px) {
     .row h2 {
@@ -466,28 +468,6 @@ textarea {
 
     .brand h1 {
         margin: 0 0 20px 0;
-    }
-
-    .menu-selected {
-        display: none;
-        position: absolute;
-        top: -10px;
-        left: -10px;
-        z-index: -1;
-        width: 55px;
-        height: 40px;
-        background-color: #CC326A;
-    }
-
-    .menu-selected-visible {
-        display: block;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        z-index: -1;
-        width: 20px;
-        height: 20px;
-        background-color: #CC326A;
     }
 
     .icons ul {

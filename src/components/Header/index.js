@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 function Header(props) {
     const { currentPage, setCurrentPage } = props;
 
@@ -10,17 +12,17 @@ function Header(props) {
             </div>
             <div className="menu">
                 <ul>
-                    <li><button onClick={() => setCurrentPage("About Me")}>about me</button>
-                        <div className={`${currentPage === "About Me" && "menu-selected-visible"}`}></div>
+                    <li className='menu-item'>
+                        <NavLink to="/">about me</NavLink>
                     </li>
-                    <li><button onClick={() => setCurrentPage("MyWork")}>my work</button>
-                        <div className={`${currentPage === "MyWork" && "menu-selected-visible"}`}></div>
+                    <li className='menu-item'>
+                        <NavLink to="/work">my work</NavLink>
                     </li>
-                    <li><button onClick={() => setCurrentPage("Resume")}>my resume</button>
-                        <div className={`${currentPage === "Resume" && "menu-selected-visible"}`}></div>
+                    <li className='menu-item'>
+                        <NavLink to="/resume">my resume</NavLink>
                     </li>
-                    <li><button onClick={() => setCurrentPage("Contact")}>contact</button>
-                        <div className={`${currentPage === "Contact" && "menu-selected-visible"}`}></div>
+                    <li className='menu-item'>
+                        <NavLink to="/contact">contact me</NavLink>
                     </li>
                 </ul>
             </div>
