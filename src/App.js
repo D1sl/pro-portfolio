@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Redirect } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -22,7 +22,7 @@ function App() {
   console.log(address)
 
   if (address === "https://d1sl.github.io/pro-portfolio/") {
-    window.location.replace("http://benmolini-portfolio.herokuapp.com/");
+    window.location.replace("http://benmolini-portfolio.herokuapp.com/")
   }
 
   return (
