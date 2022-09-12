@@ -1,8 +1,8 @@
 .wave-container {
     position: absolute;
-    overflow-x: hidden;
+    overflow: hidden;
     top: 0;
-    right: -20%;
+    right: 0;
     width: 100vw;
     height: 100vh;
     z-index: -1;
@@ -128,8 +128,10 @@
 /*Shrinking for mobile*/
 @media screen and (max-width: 720px) {
     .wave-container {
+        position: fixed;
+        overflow: hidden;
         top: 0;
-        left: 0;
+        right: 0;
         width: 100vw;
         height: 100vh;
         transform: none;
