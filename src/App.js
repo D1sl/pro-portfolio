@@ -9,9 +9,10 @@ import Waves from './components/Waves';
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import MyWork from "./pages/Work";
+import About from "./pages/About";
 
 import './assets/css/styles.css';
-import About from "./pages/About";
+import './assets/css/waves.css';
 
 
 function App() {
