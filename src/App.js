@@ -18,21 +18,21 @@ import './assets/css/waves.css';
 function App() {
 
   return (
-    <Router>
+    <HashRouter basemname={`/${process.env.PUBLIC_URL}`}>
       <div className="wrapper">
         <Header />
         <main>
           <Waves />
-          <HashRouter>
+          <Routes>
             <Route path="" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/work" element={<MyWork />} />
-          </HashRouter>
+          </Routes>
         </main>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
