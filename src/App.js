@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -18,22 +18,21 @@ import './assets/css/waves.css';
 function App() {
 
   return (
-    <HashRouter>
+    <Router>
       <div className="wrapper">
         <Header />
         <main>
           <Waves />
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/work" element={<MyWork />} />
-            <Route path="*" element={<About />} />
+            <Route path="/pro-portfolio/" element={<About />} />
+            <Route path="/pro-portfolio/contact" element={<Contact />} />
+            <Route path="/pro-portfolio/resume" element={<Resume />} />
+            <Route path="/pro-portfolio/work" element={<MyWork />} />
           </Routes>
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
