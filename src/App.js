@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <div className="wrapper">
-        {address !== "https://d1sl.github.io/pro-portfolio/" ? (
+        {address === "https://d1sl.github.io/pro-portfolio/" ? (
 
           <div className="redirect">
             <h1>Please wait</h1>
