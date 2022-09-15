@@ -32,7 +32,7 @@ function App() {
 
           <div className="redirect">
             <h1>Please wait</h1>
-            <Link to="http://benmolini-portfolio.herokuapp.com/">Your're being redirected to the Portfolio.</Link>
+            <Link to="http://benmolini-portfolio.herokuapp.com/">You are being redirected to the Portfolio.</Link>
           </div>
 
         ) : (
