@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Components
 import Header from './components/Header';
@@ -28,17 +28,28 @@ function App() {
   return (
     <Router>
       <div className="wrapper">
-        <Header />
-        <main>
-          <Waves />
-          <Routes>
-            <Route path="" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/work" element={<MyWork />} />
-          </Routes>
-        </main>
-        <Footer />
+        {address !== "https://d1sl.github.io/pro-portfolio/" ? (
+
+          <div className="redirect">
+            <h1>Please wait</h1>
+            <Link to="http://benmolini-portfolio.herokuapp.com/">Your're being redirected to the Portfolio.</Link>
+          </div>
+
+        ) : (
+          <>
+            <Header />
+            <Waves />
+            <main>
+              <Routes>
+                <Route path="" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/resume" element={<Resume />} />
+                <Route path="/work" element={<MyWork />} />
+              </Routes>
+            </main>
+            <Footer />
+          </>
+        )}
       </div>
     </Router>
   );

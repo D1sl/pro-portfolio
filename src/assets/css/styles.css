@@ -406,6 +406,13 @@ li .active {
     transition: all 1s ease-in-out;
 }
 
+.redirect {
+    text-align: center;
+    width: 30vw;
+    height: 30vh;
+    margin: 200px auto;
+}
+
 @media screen and (max-width: 1000px) {
     .row h2 {
         font-size: 100px;
