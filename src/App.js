@@ -36,7 +36,7 @@ function App() {
           </div>
 
         ) : (
-          <>
+          <> 
             <Header />
             <Waves />
             <main>
