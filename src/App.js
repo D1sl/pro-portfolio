@@ -21,14 +21,14 @@ function App() {
 
   console.log(address)
 
-  if (address === "https://d1sl.github.io/pro-portfolio/") {
-    window.location.replace("http://benmolini-portfolio.herokuapp.com/")
-  }
+  // if (address === "https://d1sl.github.io/pro-portfolio/") {
+  //   window.location.replace("http://benmolini-portfolio.herokuapp.com/")
+  // }
 
   return (
     <Router>
       <div className="wrapper">
-        {address === "https://d1sl.github.io/pro-portfolio/" ? (
+        {/* {address === "https://d1sl.github.io/pro-portfolio/" ? (
 
           <div className="redirect">
             <h1>Please wait</h1>
@@ -36,7 +36,7 @@ function App() {
           </div>
 
         ) : (
-          <> 
+          <>  */}
             <Header />
             <Waves />
             <main>
@@ -48,8 +48,8 @@ function App() {
               </Routes>
             </main>
             <Footer />
-          </>
-        )}
+          {/* </>
+        )} */}
       </div>
     </Router>
   );
